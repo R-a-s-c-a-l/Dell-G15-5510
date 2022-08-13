@@ -5,7 +5,7 @@
 | Model      | Dell G15 5510                                             |
 | CPU        | Intel(R) Core(TM) i7-10870H                               |
 | GPU        | Intel(R) UHD Graphics 630                                 |                                                                     
-| Disk       | Unknown                                                   |
+| Disk       | NVMe (Unknown Model)                                      |
 | Ethernet   | Realtek RTL8111                                           |
 | Bootloader | OpenCore 0.8.3 Release                                    |
 | Supported macOS Version | macOS BigSur & Monterey                      |
@@ -15,7 +15,7 @@
  - 键盘、触摸板 (GPIO中断、支持手势)
  - 雷雳、 USB部分正常、PCIe隧道无设备测试、视频输出直通独显无解
  - HDMI、直通独显无解
- - Wi-Fi 蓝牙 (驱动自行添加)
+ - Wi-Fi 蓝牙 (驱动自行添加 EFI中不包含无线网卡驱动)
  - 声卡 (Intel SST 内置麦克风无法驱动、耳机需要ALCFixPlug,否则无法使用->[点我下载](https://github.com/Core-i99/DELL-G15-5510-ALCPlugFix))
  - 亮度 
  - 快捷键(部分)
