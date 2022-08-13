@@ -12,11 +12,11 @@
 
 # 状态
 ## 正常
- - 键盘、触摸板 (GPIO)、支持五点、触控手势
+ - 键盘、触摸板 (GPIO中断、支持五点、触控手势)
  - 雷雳、 USB部分正常、PCIe隧道无设备测试、视频输出直通独显无解
  - HDMI、直通独显无解
  - Wi-Fi 蓝牙 (驱动自行添加)
- - 声卡 (Intel SST 内置麦克风无法驱动、耳机需要ALCFixPlug,否则无法使用、[点这里](https://github.com/Core-i99/DELL-G15-5510-ALCPlugFix))
+ - 声卡 (Intel SST 内置麦克风无法驱动、耳机需要ALCFixPlug,否则无法使用->[点我下载](https://github.com/Core-i99/DELL-G15-5510-ALCPlugFix))
  - 亮度 
  - 快捷键(部分)
  - 电池
